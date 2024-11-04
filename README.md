@@ -12,7 +12,7 @@ Please follow the below instructions to run this branch in your machine:
    ```sh
    cd AgroZone
    ```
-4. Checkout/switch to branch 3.21
+4. Checkout/switch to your branch
    ```sh
    git checkout developer
    ```
