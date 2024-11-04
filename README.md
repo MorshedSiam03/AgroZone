@@ -1,8 +1,30 @@
-# React + Vite
+## ![rocketIcon][rocketicon-shield] How to run
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Please follow the below instructions to run this branch in your machine:
 
-Currently, two official plugins are available:
+1. Login to the GitHub account on which you have been granted access to this repository. If you have purchased the course but didn't get the access to this repository, please contact our support team. You will find contact details below.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Clone this repository -
+   ```sh
+   git clone https://github.com/MorshedSiam03/AgroZone.git
+   ```
+3. Go to the cloned project directory
+   ```sh
+   cd AgroZone
+   ```
+4. Checkout/switch to branch 3.21
+   ```sh
+   git checkout developer
+   ```
+5. Just run this command to install node dependencies
+   ```sh
+   npm i
+   ```
+6. Just run this command
+   ```sh
+   npm run dev
+   ```
+
+<br>
+
+<br/>
