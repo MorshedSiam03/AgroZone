@@ -21,7 +21,6 @@ const Gallary = () => {
                         alt=""
                     />
                     </div>
-                 {/* Single button for all screens */}
             <div className="flex justify-center pb-5 mb-10">
                 <button className="bg-green-500 hover:bg-green-600 text-white font-bold text-base sm:text-xl py-2 sm:py-3 px-24 md:px-44 rounded-full transition duration-300">
                     View All Projects
