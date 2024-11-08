@@ -5,7 +5,7 @@ import "./index.css";
 import Root from "./Components/Root/Root";
 import ErrorPage from "./Components/Error/ErrorPage";
 import Contact from "./Components/Contact/Contact";
-
+import OurBlogs from "./Components/OurBlogs/OurBlogs";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
       {
         path: "/contacts",
         element: <Contact />,
-      },
+      }
     ],
   },
 ]);
