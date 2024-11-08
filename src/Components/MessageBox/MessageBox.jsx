@@ -11,7 +11,7 @@ const MessageBox = () => {
                         <h1 className='text-2xl md:text-5xl'>Nourishing world from seed to table</h1>
                         <p>Agriculture and farming are essential industries that involve the cultivation of crops,raising of livestock, and production of food.</p>
                     </div>
-                    <div className='flex flex-col md:flex-row justify-between items-center'>
+                    <div className='flex flex-col gap-8 md:flex-row justify-between items-center'>
                         <div className="card w-72 h-72 shadow-xl mt-10 mb-10 bg-[#2A5747]">
                             <figure className="px-10 pt-10 cursor-pointer">
                                 <img
@@ -49,7 +49,7 @@ const MessageBox = () => {
                             <input type="text" placeholder="Area" className="input bg-gray-200 input-bordered w-full max-w-xs" />
                         </div>
                         <textarea className="textarea bg-gray-200 w-[80%] md:w-full textarea-bordered mb-4" placeholder="Message"></textarea>
-                        <button className="bg-yellow-500 w-[80%] md:w-full hover:bg-green-600 text-green-700 font-bold text-base sm:text-xl py-2 sm:py-3 px-24 md:px-44 rounded-full transition duration-300 mb-12">
+                        <button className="btn border-0 bg-yellow-500 w-[80%] md:w-full hover:bg-green-600 text-green-700 font-bold text-base sm:text-xl py-2 sm:py-3   rounded-full transition duration-300 mb-12">
                             Submit Now
                         </button>
                     </div>

@@ -95,7 +95,7 @@ function Navbar() {
       </div>
       <div className="image">
         <div className=" md:mx-20 mx-4 flex flex-col md:flex-row justify-between items-center">
-          <div className="my-10 lg:mt-60 md:mb-0 font-NotoSarif">
+          <div className="my-10 lg:mt-40 md:mb-0 font-NotoSarif">
             <h1 className="text-white font-bold text-4xl md:text-7xl">
               Plowing the earth
             </h1>
@@ -113,11 +113,11 @@ function Navbar() {
             <p className="text-slate-50 text-lg md:text-xl mt-3">
               {">>"} Where innovation meets cultivation.
             </p>
-            <button className="bg-green-500 font-montserrat hover:bg-green-600 text-slate-200 py-2 sm:py-3 px-4 sm:px-6 rounded-full transition duration-300 mt-3">
+            <button className="bg-green-500 font-montserrat hover:bg-green-600 btn text-white py-2 sm:py-3 px-4 sm:px-6 rounded-full transition duration-300 mt-3">
               View more
             </button>
           </div>
-          <div className="w-full ml-16 md:ml-0 max-w-xs md:mt-48 sm:max-w-sm md:max-w-md lg:max-w-lg ">
+          <div className="w-full ml-16 md:ml-0 max-w-xs md:mt-32 sm:max-w-sm md:max-w-md lg:max-w-lg ">
             <img
               className="w-[85%] border-gray-300 border-8 h-auto rounded-full object-cover"
               src="/src/assets/Hero.jpg"
