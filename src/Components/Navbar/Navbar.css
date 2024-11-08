@@ -6,7 +6,7 @@
     height: 95vh;
     background-image:
     linear-gradient(to right, rgb(31,78,61), rgba(255,0,0,0)),
-    url('https://img.freepik.com/free-photo/green-tea-bud-leaves-green-tea-plantations-morning_335224-955.jpg?t=st=1731040316~exp=1731043916~hmac=020306664f5d13bc254e4cd8c7e5316405b5483b2bbfcf940496ca1609d05c03&w=1800');
+    url('/src/assets/HeroBG.jpg');
       
 
 }

@@ -18,10 +18,12 @@ const WhyChooseUs = () => {
           Farming with passion the <br /> feeding purpose
         </h1>
         <p className="text-lg text-slate-500 mt-5 font-NotoSarif">
-          Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies
-          dictum se facilisis sem. Imperdiet massa turpis sit Lorem ipsum dolor
-          sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem.
-          Imperdiet
+          Lack of knowledge in the field of smart farming among to our farmers
+          is harsh. Our blogs and Ai chatbot also train different kinds of
+          diseases will be the huge help for farmers. Again syndicate is also a
+          big problem. Most of the time farmers not paid well our e-commerce
+          system will works like bridge between farmers and end users that will
+          help to reduce syndicate.
         </p>
         <div className="my-5">
           <h1 className="font-NotoSarif">
