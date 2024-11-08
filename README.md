@@ -14,7 +14,7 @@ Please follow the below instructions to run this branch in your machine:
    ```
 4. Checkout/switch to your branch
    ```sh
-   git checkout developer
+   git checkout yamlick
    ```
 5. Just run this command to install node dependencies
    ```sh
