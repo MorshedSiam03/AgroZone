@@ -1,20 +1,21 @@
-import farmer from '../../assets/farmer.png'
+import farmer from '/src/assets/Footer.png'
 import React from 'react'
 
 function Footer() {
   return (
-    <div className="bg-green-900 mt-96 lg:mt-52">
-      <footer className="text-base-content p-10 mt-16">
+
+    <div className="bg-green-900">
+      <footer className="text-base-content p-10 mt-60">
         <div className="relative">
           {/*News Letter Section */}
           <div className="absolute inset-x-0 -top-96 md:-top-48 flex justify-center">
             <div className="p-2 border-2 border-white rounded-2xl">
               <div className="relative w-full md:w-[1200px] p-10 rounded-xl bg-yellow-500">
-                <div className='flex flex-col md:flex-row justify-between w-3/4 mx-auto'>
-                  <div>
-                    <img className='w-full h-60 ' src={farmer} alt="" srcset="" />
+                <div className='flex flex-col md:flex-row justify-between   mx-auto'>
+                  <div className='absolute bottom-0 left-0'>
+                    <img className='w-[450px]' src={farmer} alt="" srcset="" />
                   </div>
-                  <div  className='mt-14'>
+                  <div  className='mt-14 ml-80'>
                     <h3 className="text-lg md:text-3xl font-bold text-start text-gray-800 mb-2">Subscribe to our Newsletter</h3>
                     <p className="text-gray-600 text-sm md:text-base mb-4 text-start">Get the latest updates and news right in your inbox!</p>
                     <div className="flex justify-center items-center gap-2">
