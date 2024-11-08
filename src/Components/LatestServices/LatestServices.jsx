@@ -21,9 +21,9 @@ const LatestServices = () => {
             <div className="border-l h-24 mx-4"></div>
 
             <div>
-                <h2 className="text-lg font-bold text-green-700">Green Grow</h2>
+                <h2 className="text-lg font-bold text-green-700">E-Bazar</h2>
                 <p className="text-gray-600 text-sm mb-2">
-                    Agriculture and farming are essential industries
+                    Customer can purchase product and farmer can buy their goods.
                 </p>
 
                 <h1  className="text-gray-800 font-semibold flex items-center">
@@ -43,9 +43,9 @@ const LatestServices = () => {
             <div className="border-l h-24 mx-4"></div>
 
             <div>
-                <h2 className="text-lg font-bold text-green-700">Green Grow</h2>
+                <h2 className="text-lg font-bold text-green-700">Agro consultation</h2>
                 <p className="text-gray-600 text-sm mb-2">
-                    Agriculture and farming are essential industries
+                    Farmers can take appointment for specialist. 
                 </p>
 
                 <h1  className="text-gray-800 font-semibold flex items-center">
@@ -64,9 +64,9 @@ const LatestServices = () => {
             <div className="border-l h-24 mx-4"></div>
 
             <div>
-                <h2 className="text-lg font-bold text-green-700">Green Grow</h2>
+                <h2 className="text-lg font-bold text-green-700">Smart Farming</h2>
                 <p className="text-gray-600 text-sm mb-2">
-                    Agriculture and farming are essential industries
+                    Our blog and Ai integration will educate farmers.
                 </p>
 
                 <h1  className="text-gray-800 font-semibold flex items-center">
