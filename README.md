@@ -16,7 +16,7 @@ Please follow the below instructions to run this branch in your machine:
    ```sh
 
    git checkout developer
-
+   
    ```
 5. Just run this command to install node dependencies
    ```sh
