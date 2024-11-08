@@ -4,7 +4,7 @@ import React from 'react'
 function Footer() {
   return (
     <div className="bg-green-900">
-      <footer className="text-base-content p-10 mt-16">
+      <footer className="text-base-content p-10 mt-60">
         <div className="relative">
           {/*News Letter Section */}
           <div className="absolute inset-x-0 -top-96 md:-top-48 flex justify-center">
