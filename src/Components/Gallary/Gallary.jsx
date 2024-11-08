@@ -10,9 +10,14 @@ const Gallary = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 mt-10 w-10/12 mx-auto gap-4  pb-5 ">
-                <img className="rounded-2xl w-full h-48 md:h-80 object-cover" src="https://plus.unsplash.com/premium_photo-1682092642861-742c2a19d652?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuZ2xhZGVzaCUyMGZhcm1lcnxlbnwwfHwwfHx8MA%3D%3D" alt="" />
-                <img   className="rounded-2xl w-full h-48 md:h-80 object-cover" src="https://images.unsplash.com/photo-1644101211459-7f9be46fad04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFuZ2xhZGVzaCUyMGZhcm1lcnxlbnwwfHwwfHx8MA%3D%3D" alt="" />
-                <img   className="rounded-2xl w-full h-48 md:h-80 object-cover" src="https://media.istockphoto.com/id/2101256208/photo/pumpkin-in-hand-on-the-background-of-the-field-selective-focus.webp?a=1&b=1&s=612x612&w=0&k=20&c=YsZm-SEjljwEEO9_YoYMIodU4YaVKN4LhSzHyld8F7Y=" alt="" />
+            <div className="grid md:grid-cols-2/3 ">
+            <img className="rounded-2xl w-full h-48 md:h-80 object-cover" src="https://plus.unsplash.com/premium_photo-1682092642861-742c2a19d652?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuZ2xhZGVzaCUyMGZhcm1lcnxlbnwwfHwwfHx8MA%3D%3D" alt="" />
+
+            </div>
+            <div className="grid md:grid-cols-1/3">
+            <img   className="rounded-2xl w-full h-48 md:h-80 object-cover" src="https://media.istockphoto.com/id/2101256208/photo/pumpkin-in-hand-on-the-background-of-the-field-selective-focus.webp?a=1&b=1&s=612x612&w=0&k=20&c=YsZm-SEjljwEEO9_YoYMIodU4YaVKN4LhSzHyld8F7Y=" alt="" />
+
+            </div>
                 <img   className="rounded-2xl w-full h-48 md:h-80 object-cover" src="https://images.unsplash.com/photo-1681645695857-3d93ac43de56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhbmdsYWRlc2glMjBmYXJtZXJ8ZW58MHx8MHx8fDA%3D" alt="" />
                 <img   className="rounded-2xl w-full h-48 md:h-80 object-cover" src="https://media.istockphoto.com/id/1312767296/photo/hands-with-bangles-picking-up-tea-leaves.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZLNko5b84oILLcplQirABsk0XiBAZLgf9dYMoOog-qA=" alt="" />
                 <img
