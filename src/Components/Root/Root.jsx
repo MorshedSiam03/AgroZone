@@ -9,7 +9,6 @@ export default function Root() {
       <Navbar/>
       <div className="min-h-[calc(120vh-232px)]">
       <Outlet></Outlet>
-      </div>
       <Footer/>
     </>
   )
