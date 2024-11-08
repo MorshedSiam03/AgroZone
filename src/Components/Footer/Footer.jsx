@@ -1,23 +1,24 @@
-import farmer from '../../assets/farmer.png'
+import farmer from '/src/assets/Footer.png'
 import React from 'react'
 
 function Footer() {
   return (
+
     <div className="bg-green-900">
-      <footer className="text-base-content p-10 mt-16">
+      <footer className="text-base-content p-5 mt-60">
         <div className="relative">
           {/*News Letter Section */}
           <div className="absolute inset-x-0 -top-96 md:-top-48 flex justify-center">
-            <div className="p-2 border-2 border-white rounded-2xl">
-              <div className="relative w-full md:w-[1200px] p-10 rounded-xl bg-yellow-500">
-                <div className='flex flex-col md:flex-row justify-between w-3/4 mx-auto'>
-                  <div>
-                    <img className='w-full h-60 ' src={farmer} alt="" srcset="" />
+            <div className="p-2 border-2  border-white rounded-2xl">
+              <div className="relative w-full md:w-[1200px] mt-40 md:mt-0 p-10 rounded-xl border-t-4 border-t-green-600 bg-yellow-500">
+                <div className='flex flex-col md:flex-row justify-between mx-auto'>
+                  <div className='absolute bottom-0 left-0'>
+                    <img className='w-[400px] ml-[-55px] lg:ml-0 lg:w-[450px]' src={farmer} alt="" srcset="" />
                   </div>
-                  <div  className='mt-14'>
+                  <div  className='mt-14 ml-40 lg:ml-80'>
                     <h3 className="text-lg md:text-3xl font-bold text-start text-gray-800 mb-2">Subscribe to our Newsletter</h3>
                     <p className="text-gray-600 text-sm md:text-base mb-4 text-start">Get the latest updates and news right in your inbox!</p>
-                    <div className="flex justify-center items-center gap-2">
+                    <div className="flex flex-col lg:flex-row justify-center items-center gap-2">
                       <input
                         type="email"
                         placeholder="Enter your email"
@@ -84,8 +85,8 @@ function Footer() {
         </div>
 
         {/* Divider and Footer Bottom Text */}
-        <hr className="border-t border-2 border-gray-100 opacity-5 w-full my-8" />
-        <p className="text-center text-sm text-gray-300 p-5">
+        <hr className="border-t border-2 border-gray-100 opacity-5 w-full my-3" />
+        <p className="text-center text-sm text-gray-300">
           &copy;2024 AgroZone All Rights Reserved
         </p>
       </footer>
