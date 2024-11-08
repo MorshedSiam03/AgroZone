@@ -3,6 +3,7 @@ import React from 'react'
 
 function Footer() {
   return (
+
     <div className="bg-green-900">
       <footer className="text-base-content p-10 mt-60">
         <div className="relative">

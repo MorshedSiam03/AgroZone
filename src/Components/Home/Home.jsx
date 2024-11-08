@@ -4,6 +4,8 @@ import WhyChooseUs from '../WhyChooseUs/WhyChooseUs'
 import Gallary from '../Gallary/Gallary'
 import LatestServices from '../LatestServices/LatestServices'
 import Reveiw from '../Reveiw/Reveiw'
+import OurBlogs from '../OurBlogs/OurBlogs'
+import MessageBox from '../MessageBox/MessageBox'
 
 function Home() {
   return (
@@ -11,9 +13,10 @@ function Home() {
       <WhyChooseUs></WhyChooseUs>
       <Gallary></Gallary>
       <LatestServices></LatestServices>
-     <ProductList/>
+       <ProductList/>
       <Reveiw></Reveiw>
-
+      <MessageBox></MessageBox>
+      <OurBlogs></OurBlogs>
     </>
   )
 }
