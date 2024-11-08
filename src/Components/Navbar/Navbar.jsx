@@ -7,7 +7,11 @@ function Navbar() {
       <div className="navbar bg-[#1f4e3d] sticky top-0 z-50 md:px-4">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden text-white">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost lg:hidden text-white"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -46,7 +50,11 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <img src="/src/assets/LogoNav.png" className="w-48 cursor-pointer" alt="" />
+          <img
+            src="/src/assets/LogoNav.png"
+            className="w-48 cursor-pointer"
+            alt=""
+          />
         </div>
         <div className="navbar-center hidden text-white lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -78,10 +86,11 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-end ">
-            <div className="hidden md:block">
-            <a className="btn bg-[#2ab939] border-0 rounded-full text-white font-normal">Book a Consultant</a>
-
-            </div>
+          <div className="hidden md:block">
+            <a className="btn bg-[#2ab939] border-0 rounded-full text-white font-normal">
+              Book a Consultant
+            </a>
+          </div>
         </div>
       </div>
       <div className="image">
@@ -90,7 +99,9 @@ function Navbar() {
             <h1 className="text-white font-bold text-4xl md:text-7xl">
               Plowing the earth
             </h1>
-            <p className="text-white  text-3xl md:text-6xl my-2">harvesting hope</p>
+            <p className="text-white  text-3xl md:text-6xl my-2">
+              harvesting hope
+            </p>
             <p className="text-slate-50 text-lg md:text-xl mt-3">
               Education is the key to student success. Unlock your potential
               through learning. <br />
@@ -100,7 +111,7 @@ function Navbar() {
               {">>"} Crops of opportunity, fields of dreams.
             </p>
             <p className="text-slate-50 text-lg md:text-xl mt-3">
-            {">>"} Where innovation meets cultivation.
+              {">>"} Where innovation meets cultivation.
             </p>
             <button className="bg-green-500 font-montserrat hover:bg-green-600 text-slate-200 py-2 sm:py-3 px-4 sm:px-6 rounded-full transition duration-300 mt-3">
               View more
@@ -114,6 +125,15 @@ function Navbar() {
             />
           </div>
         </div>
+        {/* <div>
+          <iframe
+            src="https://www.chatbase.co/chatbot-iframe/Fg7ZEUAh90quVFwmwWyKQ"
+            width="100%"
+            style="height: 100%; min-height: 700px"
+            frameborder="0"
+          ></iframe>
+        </div> */}
+        
       </div>
     </>
   );
