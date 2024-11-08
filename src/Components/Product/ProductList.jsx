@@ -22,7 +22,8 @@ function ProductList() {
     <div className="product-list-container px-10 py-16">
       {/* Title Section */}
       <div className="text-center mb-10">
-        <h2 className="text-3xl font-bold text-green-700">Nourishing the world from seed to table</h2>
+        <h1 className='text-green-400 font-Mali text-xl mt-10'>Our Products</h1>
+        <h2 className="text-4xl font-semibold font-NotoSarif ">Nourishing the world from seed to table</h2>
       </div>
 
       {/* Category Filter Buttons */}

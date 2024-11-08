@@ -2,10 +2,10 @@ const WhyChooseUs = () => {
   return (
     <div className="mt-16 md:w-9/12 w-11/12 mx-auto flex flex-col md:flex-row  ">
       <div className="w-full md:w-1/2 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg ">
-        <div className="">
+        <div className=" ml-8 md:ml-0">
           {" "}
           <img
-            className="w-[80%] h-auto border-spacing-2 border-2 border-green-400 rounded-full object-cover"
+            className="lg:w-[80%] h-auto border-spacing-2 border-2 border-green-400 rounded-full object-cover"
             src="https://img.freepik.com/premium-photo/indian-milk-dairy-farmer-busy-using-mobile-phone-farm-house_662214-368598.jpg"
             alt=""
           />

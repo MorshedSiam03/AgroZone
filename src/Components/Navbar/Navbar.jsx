@@ -4,10 +4,10 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <>
-      <div className="navbar bg-[#1f4e3d] sticky top-0 z-50 px-4">
+      <div className="navbar bg-[#1f4e3d] sticky top-0 z-50 md:px-4">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -25,7 +25,7 @@ function Navbar() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box text-white z-[20] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box text-black z-[20] mt-3 w-52 p-2 shadow"
             >
               <li>
                 <a>Home</a>
@@ -78,12 +78,15 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-end ">
-          <a className="btn bg-[#2ab939] border-0 rounded-full text-white font-normal">Book a Consultant <LuMoveRight className="text-xl font-extralight" />          </a>
+            <div className="hidden md:block">
+            <a className="btn bg-[#2ab939] border-0 rounded-full text-white font-normal">Book a Consultant</a>
+
+            </div>
         </div>
       </div>
       <div className="image">
-        <div className=" mx-10 flex flex-col md:flex-row justify-between items-center">
-          <div className="my-10 mt-20 md:mb-0 font-NotoSarif">
+        <div className=" md:mx-20 mx-4 flex flex-col md:flex-row justify-between items-center">
+          <div className="my-10 lg:mt-60 md:mb-0 font-NotoSarif">
             <h1 className="text-white font-bold text-4xl md:text-7xl">
               Plowing the earth
             </h1>
@@ -103,10 +106,10 @@ function Navbar() {
               View more
             </button>
           </div>
-          <div className="w-full max-w-xs mt-20 sm:max-w-sm md:max-w-md lg:max-w-lg ">
+          <div className="w-full ml-16 md:ml-0 max-w-xs md:mt-48 sm:max-w-sm md:max-w-md lg:max-w-lg ">
             <img
-              className="w-full h-auto object-cover"
-              src="https://wphtml.com/html/tf/farmhub/assets/img/banner/hero1.png"
+              className="w-[85%] border-gray-300 border-8 h-auto rounded-full object-cover"
+              src="/src/assets/Hero.jpg"
               alt=""
             />
           </div>
