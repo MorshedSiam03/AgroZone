@@ -51,7 +51,7 @@ function Navbar() {
             </ul>
           </div>
           <img
-            src="/src/assets/LogoNav.png"
+            src="https://raw.githubusercontent.com/MorshedSiam03/AgroZone/refs/heads/main/src/assets/LogoNav.png"
             className="w-48 cursor-pointer"
             alt=""
           />
@@ -120,20 +120,11 @@ function Navbar() {
           <div className="w-full ml-16 md:ml-0 max-w-xs md:mt-32 sm:max-w-sm md:max-w-md lg:max-w-lg ">
             <img
               className="w-[85%] border-gray-300 border-8 h-auto rounded-full object-cover"
-              src="/src/assets/Hero.jpg"
-              alt=""
+              src="https://raw.githubusercontent.com/MorshedSiam03/AgroZone/refs/heads/main/src/assets/Hero.jpg"
+              alt="Hero Image"
             />
           </div>
-        </div>
-        {/* <div>
-          <iframe
-            src="https://www.chatbase.co/chatbot-iframe/Fg7ZEUAh90quVFwmwWyKQ"
-            width="100%"
-            style="height: 100%; min-height: 700px"
-            frameborder="0"
-          ></iframe>
-        </div> */}
-        
+        </div>      
       </div>
     </>
   );

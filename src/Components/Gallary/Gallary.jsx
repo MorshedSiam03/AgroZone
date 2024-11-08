@@ -11,24 +11,24 @@ const Gallary = () => {
       <div className="grid grid-cols-1 md:grid-cols-9 mt-10 w-10/12 mx-auto gap-4 pb-5">
         <img
           className="rounded-2xl w-full h-80 object-cover col-span-5"
-          src="/src/assets/Banner1.jpg"
+          src="https://raw.githubusercontent.com/MorshedSiam03/AgroZone/refs/heads/main/src/assets/Banner1.jpg"
           alt=""
         />
 
         <img
           className="rounded-2xl w-full h-80 object-cover col-span-5  md:col-span-4"
-          src="/src/assets/Banner4.jpg"
+          src="https://raw.githubusercontent.com/MorshedSiam03/AgroZone/refs/heads/main/src/assets/Banner4.jpg"
           alt=""
         />
 
         <img
           className="rounded-2xl w-full md:h-96 object-cover col-span-5 md:col-span-3 row-span-2"
-          src="/src/assets/Banner3.jpg"
+          src="https://raw.githubusercontent.com/MorshedSiam03/AgroZone/refs/heads/main/src/assets/Banner3.jpg"
           alt=""
         />
         <img
           className="rounded-2xl w-full h-96 object-cover col-span-5 md:col-span-3"
-          src="/src/assets/Banner2.jpg"
+          src="https://raw.githubusercontent.com/MorshedSiam03/AgroZone/refs/heads/main/src/assets/Banner2.jpg"
           alt=""
         />
 
