@@ -1,8 +1,7 @@
 import './Navbar.css'
 
 function Navbar() {
-  return (
-    
+  return (  
       // collaps navbar for small screen is required 
       <div className="image">
           <div className='w-full bg-green-900 h-24 sticky top-0 z-50'>
@@ -43,5 +42,6 @@ function Navbar() {
       </div>
   );
 };
+
 
 export default Navbar

@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom'
 function ErrorPage() {
   return (
     <>
-     <div className="text-center py-28">
+
+      <div className="text-center py-28">
             <IoIosWarning className="text-8xl text-red-600 mx-auto" />
             <h2 className="text-5xl font-bold text-red-600 mt-4">Oops! 404</h2>
             <p className="text-2xl text-gray-700 mt-4">Sorry, the page you are looking for does not exist.</p>
