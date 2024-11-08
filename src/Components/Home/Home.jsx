@@ -3,14 +3,15 @@ import WhyChooseUs from '../WhyChooseUs/WhyChooseUs'
 import Gallary from '../Gallary/Gallary'
 import LatestServices from '../LatestServices/LatestServices'
 import OurBlogs from '../OurBlogs/OurBlogs'
+import MessageBox from '../MessageBox/MessageBox'
 
 function Home() {
   return (
     <>
-      {/* Ekhane ekta ekta kore component diba Navbar ar Footer bade */}
       <WhyChooseUs></WhyChooseUs>
       <Gallary></Gallary>
       <LatestServices></LatestServices>
+      <MessageBox></MessageBox>
       <OurBlogs></OurBlogs>
     </>
   )

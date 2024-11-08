@@ -6,7 +6,7 @@ const OurBlog = ({ blog }) => {
     console.log(blog)
     return (
         <div className="relative card bg-base-100 w-96 shadow-xl mb-56">
-            <figure className="">
+            <figure className="hover:scale-105 transition ease-in duration-300">
                 <img
                     src={image}
                     alt="farm" />
