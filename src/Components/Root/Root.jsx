@@ -7,7 +7,8 @@ export default function Root() {
   return (
     <>
       <Navbar/>
-      <Outlet/>
+      <div className="min-h-[calc(120vh-232px)]">
+      <Outlet></Outlet>
       <Footer/>
     </>
   )
